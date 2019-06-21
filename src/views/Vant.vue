@@ -109,7 +109,7 @@ export default {
 
     p.btn{
         padding: 5px 15px;
-        color: #fff;
+        color: var(--white--);
         background-color: #07c160;
         border: 1px solid #07c160;
         border-radius: 2px;
@@ -125,6 +125,7 @@ export default {
             color:rgba(69,90,100,.6); 
             font-size:13px;
             font-weight: normal;
+            color: var(--warning--);
         }
     }
 
